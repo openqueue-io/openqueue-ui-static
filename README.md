@@ -1,2 +1,2 @@
 # openqueue-ui-static
-Static introduction page and docs of openqueue.
+Static introduction pages and docs of openqueue.

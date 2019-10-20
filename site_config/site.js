@@ -27,6 +27,11 @@ export default {
         text: 'COMMUNITY',
         link: '/en-us/community/index.html',
       },
+      {
+        key: 'console',
+        text: 'CONSOLE',
+        link: '/en-us/community/index.html',
+      },
     ],
     disclaimer: {
       title: 'Disclaimer',
@@ -62,7 +67,7 @@ export default {
         },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2019 OpenQueue',
   },
   'zh-cn': {
     pageMenu: [
@@ -93,8 +98,8 @@ export default {
       },
     ],
     disclaimer: {
-      title: '免责声明',
-      content: '免责声明的具体内容',
+      title: '愿景',
+      content: 'OpenQueue希望为自身处理能力有限，且没有升级计划的网站应用，提供抗击突发流量的能力，保证系统在百万级并发访问下的可用性，使用户能够有序访问应用，提升用户体验。',
     },
     documentation: {
       title: '文档',
@@ -126,6 +131,6 @@ export default {
         },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2019 OpenQueue',
   },
 };

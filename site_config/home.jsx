@@ -4,7 +4,7 @@ export default {
   'zh-cn': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: '提供基于云的限流排队服务，使你的网站系统从容应对百万级高并发访问，提升用户体验。',
+      briefIntroduction: '提供面向网站应用的高并发限流排队云服务',
       buttons: [
         {
           text: '一分钟快速体验',
@@ -20,7 +20,7 @@ export default {
     },
     introduction: {
       title: '产品介绍',
-      desc: 'OpenQueue提供第三方云排队服务，采用简易的，非侵入的Web服务方式，接入现有网站系统。通过控制并发访问用户数，让你的网站系统从容应对百万级高并发访问。同时为用户提供排队等候页面，让用户实时了解排队信息，提升用户体验。',
+      desc: 'OpenQueue提供高性能第三方云排队服务，采用简易的，非侵入的Web服务方式，接入现有网站系统。通过控制允许访问用户数，让你的网站系统在处理能力以内，以平缓的速率有序处理用户请求。同时为用户提供排队等候页面，让用户实时了解排队信息，提升用户体验。',
       img: '/img/architecture.png',
     },
     features: {

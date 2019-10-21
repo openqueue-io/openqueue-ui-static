@@ -3,7 +3,7 @@ pages:
  home:
   # 首页配置
   zh-cn:
-   title: 'OpenQueue - 云排队限流服务'
+   title: 'OpenQueue - 提供高并发限流排队云服务'
    keywords: '云服务,排队系统,限流'
    description: '基于云的引流排队系统，通过简易的Web服务接入方式，限制同时访问人数，让你的网站系统从容应对高并发访问。'
   # home config

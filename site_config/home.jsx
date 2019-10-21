@@ -4,7 +4,7 @@ export default {
   'zh-cn': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: '一个基于云的引流排队系统，让你的网站系统从容应对百万级高并发访问，提升用户体验。',
+      briefIntroduction: '提供基于云的限流排队服务，使你的网站系统从容应对百万级高并发访问，提升用户体验。',
       buttons: [
         {
           text: '一分钟快速体验',
@@ -80,7 +80,7 @@ export default {
       briefIntroduction: 'A cloud-based queuing system which enables C1000K capability for any web applications.',
       buttons: [
         {
-          text: 'Give A Try',
+          text: 'Quick Trial',
           link: '/en-us/docs/demo1.html',
           type: 'primary',
         },

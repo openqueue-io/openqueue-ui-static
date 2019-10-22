@@ -4,7 +4,7 @@ export default {
   'zh-cn': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: '提供面向Web应用的海量高并发排队限流服务',
+      briefIntroduction: '提供面向Web应用的高性能队列限流服务',
       buttons: [
         {
           text: '一分钟快速体验',
@@ -12,15 +12,15 @@ export default {
           type: 'primary',
         },
         {
-          text: '查看Github',
+          text: '访问Github',
           link: 'https://github.com/openqueue-io/openqueue',
           type: 'normal',
         },
       ],
     },
     introduction: {
-      title: 'OpenQueue介绍',
-      desc: 'OpenQueue提供海量高并发排队限流云服务。采用简易的非侵入式Web服务接入方式，与客户现有网站系统集成。通过控制允许访问应用的用户人数，让客户网站系统在自身处理能力以内，以平缓的速率有序处理用户请求。同时为访问用户提供排队等候页面，让用户实时了解排队信息，提升用户使用体验。',
+      title: '产品介绍',
+      desc: 'OpenQueue提供高性能队列限流云服务。采用简易的非侵入式Web服务接入方式，与客户现有网站系统集成，无需单独部署和维护。通过排队的方式限制同一时刻访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
       img: '/img/architecture.png',
     },
     features: {

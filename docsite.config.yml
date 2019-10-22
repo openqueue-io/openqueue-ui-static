@@ -3,33 +3,33 @@ pages:
  home:
   # 首页配置
   zh-cn:
-   title: 'OpenQueue - 高并发排队限流云服务'
+   title: 'OpenQueue - 提供高性能队列限流服务'
    keywords: '海量高并发,排队系统,限流,云服务'
-   description: '提供面向Web应用的海量排队限流云服务，通过简易的Web服务接入方式，限制同时访问人数，让你的网站系统从容应对高并发访问。'
+   description: '提供面向Web应用的高并发大容量队列限流云服务，通过简易的Web服务接入方式，限制同时访问人数，让你的网站系统从容应对高并发访问。'
   # home config
   en-us:
-   title: 'OpenQueue'
+   title: 'OpenQueue - A cloud queuing system'
    keywords: 'cloud,queuing system'
    description: 'A cloud-based queuing system which enables C1000K capability for any web applications.'
  community:
   # 社区页配置
   zh-cn:
-   title: '网页标签title'
+   title: '社区 - OpenQueue'
    keywords: '关键词1，关键词2'
    description: '页面内容简介'
   # community page config
   en-us:
-   title: 'page title'
+   title: 'Community - OpenQueue'
    keywords: 'keyword1,keyword2'
    description: 'page description'
  blog:
   # 博客列表页配置
   zh-cn:
-   title: '网页标签title'
+   title: '博客 - OpenQueue'
    keywords: '关键词1，关键词2'
    description: '页面内容简介'
   en-us:
    # blog list page config
-   title: 'page title'
+   title: 'Blog - OpenQueue'
    keywords: 'keyword1,keyword2'
    description: 'page description'

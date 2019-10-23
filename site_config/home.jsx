@@ -4,7 +4,7 @@ export default {
   'zh-cn': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: '提供面向Web应用的高性能队列限流服务',
+      briefIntroduction: '提供通用型Web应用高并发限流解决方案',
       buttons: [
         {
           text: '一分钟快速体验',
@@ -20,7 +20,7 @@ export default {
     },
     introduction: {
       title: '产品介绍',
-      desc: 'OpenQueue提供高性能队列限流云服务。采用简易的非侵入式Web服务接入方式，与客户现有网站系统集成，无需单独部署和维护。通过排队的方式限制同一时刻访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
+      desc: 'OpenQueue提供面向Web应用的高并发排队限流服务。采用简易的非侵入式Web服务接入方式，与客户现有网站系统集成，无需单独部署和维护。通过排队的方式限制同时访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
       img: '/img/architecture.png',
     },
     features: {
@@ -77,7 +77,7 @@ export default {
   'en-us': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: 'A cloud-based queuing system which enables C1000K capability for any web applications.',
+      briefIntroduction: 'A general queuing system which enables C1000K capability for any web applications.',
       buttons: [
         {
           text: 'Quick Trial',
@@ -93,7 +93,7 @@ export default {
     },
     introduction: {
       title: 'OpenQueue Introduction',
-      desc: 'A cloud-based queuing system which enables C1000K capability for any web applications.',
+      desc: 'A general queuing system which enables C1000K capability for any web applications.',
       img: '/img/architecture.png',
     },
     features: {

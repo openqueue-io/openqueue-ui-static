@@ -38,6 +38,12 @@ class Home extends Language {
     const dataSource = homeConfig[language];
     const { headerType } = this.state;
     const headerLogo = headerType === 'primary' ? '/img/opq_white.png' : '/img/opq_black.png';
+    let animationIndex = []
+    for (let i = 1;i < 8; ++i) {
+      for (let j = 1;j < 6; ++j) {
+        animationIndex.push(j + "" + i)
+      }
+    }
     return (
       <div className="home-page">
         <section className="top-section">
@@ -59,11 +65,9 @@ class Home extends Language {
             }
             </div>
           </div>
-          <div className="animation animation1" />
-          <div className="animation animation2" />
-          <div className="animation animation3" />
-          <div className="animation animation4" />
-          <div className="animation animation5" />
+          {
+            animationIndex.map(i => <div className={"animation animation"+i} />)
+          }
         </section>
         <section className="introduction-section">
           <div className="introduction-body">

@@ -99,7 +99,7 @@ export default {
     ],
     disclaimer: {
       title: '愿景',
-      content: 'OpenQueue希望为自身处理能力有限，且没有升级计划的Web应用，提供抗击突发流量的能力，保证系统在高并发量访问下的可用性，提升用户体验。',
+      content: 'OpenQueue致力于为自身处理能力有限，且没有升级计划的Web应用，提供抗击突发流量的能力，保证系统在高并发量访问下的可用性，提升用户体验。',
     },
     documentation: {
       title: '文档',

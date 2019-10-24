@@ -12,16 +12,16 @@ export default {
           type: 'primary',
         },
         {
-          text: '访问Github',
+          text: '开源版本',
           link: 'https://github.com/openqueue-io/openqueue',
           type: 'normal',
         },
       ],
     },
     introduction: {
-      title: '产品介绍',
-      desc: 'OpenQueue提供面向Web应用的高并发排队限流服务。采用简易的非侵入式Web服务接入方式，与客户现有网站系统集成，无需单独部署和维护。通过排队的方式限制同时访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
-      img: '/img/architecture.png',
+      title: '简介',
+      desc: 'OpenQueue提供面向Web应用的高并发排队限流服务。通过简易松耦合的Web服务接口，与客户现有网站系统集成，无需单独部署和维护。通过排队的方式限制同时访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
+      img: '/img/opq_flow_zh_cn.png',
     },
     features: {
       title: '特性一览',
@@ -61,7 +61,7 @@ export default {
     start: {
       title: '开发者指南',
       desc: '在简单几个步骤的引导下，开通服务并接入现有应用，即刻拥有应对高并发能力。',
-      img: '/img/quick_start.png',
+      img: '/img/quick_start_zh_cn.png',
       button: {
         text: '查看教程',
         link: '/zh-cn/docs/demo1.html',
@@ -92,9 +92,9 @@ export default {
       ],
     },
     introduction: {
-      title: 'OpenQueue Introduction',
+      title: 'Introduction',
       desc: 'A general queuing system which enables C1000K capability for any web applications.',
-      img: '/img/architecture.png',
+      img: '/img/opq_flow_us.png',
     },
     features: {
       title: 'Feature List',
@@ -133,8 +133,8 @@ export default {
     },
     start: {
       title: 'Quick start',
-      desc: 'Enable your application C1000K capability within one minute!',
-      img: '/img/quick_start.png',
+      desc: 'Enable your application C1000K capability within 1 minute',
+      img: '/img/quick_start_us.png',
       button: {
         text: 'READ MORE',
         link: '/en-us/docs/demo1.html',

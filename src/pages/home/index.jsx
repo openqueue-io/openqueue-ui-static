@@ -39,8 +39,8 @@ class Home extends Language {
     const { headerType } = this.state;
     const headerLogo = headerType === 'primary' ? '/img/opq_white.png' : '/img/opq_black.png';
     let animationIndex = []
-    for (let i = 1;i < 8; ++i) {
-      for (let j = 1;j < 6; ++j) {
+    for (let i = 1;i < 7; ++i) {
+      for (let j = 1;j < 11; ++j) {
         animationIndex.push(j + "" + i)
       }
     }
@@ -95,7 +95,7 @@ class Home extends Language {
               <p>{dataSource.start.desc}</p>
               <a href={getLink(dataSource.start.button.link)} target={dataSource.start.button.link || '_self'}>{dataSource.start.button.text}</a>
               </div>
-            <div className="right-part"><img src={getLink('/img/quick_start.png')} /></div>
+            <div className="right-part"><img src={getLink(dataSource.start.img)} /></div>
           </div>
         </section>
         <section className="users-section">

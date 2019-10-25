@@ -4,7 +4,7 @@ export default {
   'zh-cn': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: '提供通用型Web应用高并发限流解决方案',
+      briefIntroduction: '提供面向中小型Web应用的高并发限流解决方案和云服务',
       buttons: [
         {
           text: '一分钟快速体验',
@@ -20,7 +20,7 @@ export default {
     },
     introduction: {
       title: '简介',
-      desc: 'OpenQueue提供面向Web应用的高并发排队限流服务。通过简易松耦合的Web服务接口，与客户现有网站系统集成，无需单独部署和维护。通过排队的方式限制同时访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
+      desc: 'OpenQueue提供通用型Web应用访问控制服务。通过简易松耦合的Web服务接口，与客户现有网站系统集成，无需单独部署和维护。通过排队的方式限制同时访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
       img: '/img/opq_flow_zh_cn.png',
     },
     features: {
@@ -77,7 +77,7 @@ export default {
   'en-us': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: 'A general queuing system which enables C1000K capability for any web applications.',
+      briefIntroduction: 'Providing high concurrency access control solutions and cloud service for medium/small web applications.',
       buttons: [
         {
           text: 'Quick Trial',

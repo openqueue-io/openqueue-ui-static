@@ -34,8 +34,8 @@ export default {
       },
     ],
     disclaimer: {
-      title: 'Disclaimer',
-      content: 'the disclaimer content',
+      title: 'Mission & Vision',
+      content: 'Openqueue is dedicated to providing web applications with limited processing capacity and no upgrade plan with the ability to resist sudden large traffic. By guiding users to access applications in an orderly manner, the web application can ensure it\'s availability under high concurrent access and improve the user experience.',
     },
     documentation: {
       title: 'Documentation',

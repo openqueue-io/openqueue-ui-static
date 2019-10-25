@@ -8,9 +8,9 @@ pages:
    description: '提供面向中小型Web应用的高并发大容量队列限流云服务，通过简易的Web服务接入方式，限制同时访问人数，让你的网站系统从容应对高并发访问。'
   # home config
   en-us:
-   title: 'OpenQueue - A general queue-based access control system for any web applications.'
-   keywords: 'cloud,queuing system'
-   description: 'A general queue-based access control system for any web applications.'
+   title: 'OpenQueue - A queue-based access control system for any web applications.'
+   keywords: 'access control,queuing system'
+   description: 'A queue-based access control system for any web applications.'
  community:
   # 社区页配置
   zh-cn:

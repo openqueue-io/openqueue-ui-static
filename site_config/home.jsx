@@ -20,7 +20,7 @@ export default {
     },
     introduction: {
       title: '简介',
-      desc: 'OpenQueue提供通用型Web应用访问控制服务。通过简易松耦合的Web服务接口，与客户现有网站系统集成，无需单独部署和维护。通过排队的方式限制同时访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
+      desc: 'OpenQueue提供通用型Web应用访问控制服务。通过简易松耦合的Web服务接口与客户现有的应用集成，无需单独部署和维护。通过排队的方式限制同时访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
       img: '/img/opq_flow_zh_cn.png',
     },
     features: {
@@ -93,50 +93,50 @@ export default {
     },
     introduction: {
       title: 'Introduction',
-      desc: 'A general queuing system which enables C1000K capability for any web applications.',
+      desc: 'Openqueue provides web application access control service. It integrates with your web application through simple and loose coupling web service interface, and doesn\'t need to deploy and maintain by yourself. By limiting the users access the application at the same time, the access pressure is controlled within the range that the application can hold. It also provides a waiting page for displaying real-time queue information to improve user experience.',
       img: '/img/opq_flow_us.png',
     },
     features: {
       title: 'Feature List',
       list: [
         {
+          img: '/img/feature_runtime.png',
+          title: 'High Performance',
+          content: 'Provide million level queue reception capacity to ensure the availability under the pressure of high concurrent access.',
+        },
+        {
           img: '/img/feature_transpart.png',
-          title: 'feature1',
-          content: 'feature description',
+          title: 'Plug and Play',
+          content: 'Simple configuration. Only a few code changes. Suitable for any web application and rest (RPC) interface.',
         },
         {
           img: '/img/feature_loadbalances.png',
-          title: 'feature2',
-          content: 'feature description',
+          title: 'Good User Experience',
+          content: 'Display the queuing page and real-time queuing status, greatly improving the user experience.',
         },
         {
           img: '/img/feature_service.png',
-          title: 'feature3',
-          content: 'feature description',
+          title: 'Dynamic Queue Modification',
+          content: 'Create, shutdown and modify the queue dynamically through REST API.',
         },
         {
           img: '/img/feature_hogh.png',
-          title: 'feature4',
-          content: 'feature description',
-        },
-        {
-          img: '/img/feature_runtime.png',
-          title: 'feature5',
-          content: 'feature description',
+          title: 'Safe and Risk Free',
+          content: 'Non-intrusive access mode, no need to know the business logic, no contact with user data.',
         },
         {
           img: '/img/feature_maintenance.png',
-          title: 'feature6',
-          content: 'feature description',
+          title: 'Low Cost',
+          content: 'Zero maintenance cost, billing by traffic, affordable.',
         }
       ]
     },
     start: {
       title: 'Quick start',
-      desc: 'Enable your application C1000K capability within 1 minute',
+      desc: 'Follow few steps to enable your application C1000K capability within 1 minute.',
       img: '/img/quick_start_us.png',
       button: {
-        text: 'READ MORE',
+        text: 'Read Tutorial',
         link: '/en-us/docs/demo1.html',
       },
     },

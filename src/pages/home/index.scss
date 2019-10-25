@@ -113,7 +113,7 @@ $animationTime: 8s;
         position: absolute;
         top: 0;
         left: 40px;
-        height: 165px;
+        height: 100px;
         opacity: 0.3;
         border-right: 1px solid #666;
       }
@@ -121,7 +121,7 @@ $animationTime: 8s;
         content: '';
         position: absolute;
         left: 39px;
-        top: 165px;
+        top: 100px;
         width: 3px;
         height: 17px;
         background-image: linear-gradient(0deg, $startColor 0%, $intermediateColor 51%, $endColor 100%); 

@@ -7,7 +7,7 @@ export default {
       briefIntroduction: '一个开源的基于队列的Web应用访问速率控制系统',
       buttons: [
         {
-          text: '快速体验',
+          text: '查看文档',
           link: '/zh-cn/docs/demo1.html',
           type: 'primary',
         },
@@ -75,7 +75,7 @@ export default {
       briefIntroduction: 'An open source queue-based access rate control system for any web applications.',
       buttons: [
         {
-          text: 'Quick Trial',
+          text: 'Read Tutorial',
           link: '/en-us/docs/demo1.html',
           type: 'primary',
         },

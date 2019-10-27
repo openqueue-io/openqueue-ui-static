@@ -21,17 +21,7 @@ export default {
         key: 'blog',
         text: 'BLOG',
         link: '/en-us/blog/index.html',
-      },
-      {
-        key: 'community',
-        text: 'COMMUNITY',
-        link: '/en-us/community/index.html',
-      },
-      {
-        key: 'console',
-        text: 'CONSOLE',
-        link: '/en-us/community/index.html',
-      },
+      }
     ],
     disclaimer: {
       title: 'Mission & Vision',
@@ -85,17 +75,7 @@ export default {
         key: 'blog',
         text: '博客',
         link: '/zh-cn/blog/index.html',
-      },
-      {
-        key: 'community',
-        text: '社区',
-        link: '/zh-cn/community/index.html',
-      },
-      {
-        key: 'console',
-        text: '控制台',
-        link: '/zh-cn/community/index.html',
-      },
+      }
     ],
     disclaimer: {
       title: '愿景',

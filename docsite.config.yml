@@ -3,9 +3,9 @@ pages:
  home:
   # 首页配置
   zh-cn:
-   title: 'OpenQueue - 为中小型Web应用提供高并发场景下的流量控制解决方案和服务'
+   title: 'OpenQueue - 为中小型Web应用提供高并发场景下的流量控制服务'
    keywords: '中小型Web应用,高并发限流,流量限制,排队系统'
-   description: 'OpenQueue提供基于OAuth2的第三方Web应用流量控制服务。通过限制同时访问用户数，让你的网站系统从容应对高并发访问。'
+   description: 'OpenQueue为Web应用提供基于OAuth2的第三方流量控制服务。通过限制同时访问用户数，让你的网站系统从容应对高并发访问。'
   # home config
   en-us:
    title: 'OpenQueue - An access rate control system for any web applications.'

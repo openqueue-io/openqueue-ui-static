@@ -4,7 +4,7 @@ export default {
   'zh-cn': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: '为中小型Web应用提供高并发场景下的流量控制解决方案和服务',
+      briefIntroduction: '为中小型Web应用提供高并发场景下的流量控制服务',
       buttons: [
         {
           text: '一分钟快速体验',
@@ -20,7 +20,7 @@ export default {
     },
     introduction: {
       title: '简介',
-      desc: 'OpenQueue提供基于OAuth2的第三方Web应用流量限制服务。通过Web服务接口与现有应用轻松对接。采用排队授权访问的方式限制同时访问应用的用户数，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
+      desc: 'OpenQueue为Web应用提供基于OAuth2的第三方流量控制服务。通过Web服务接口与现有应用轻松对接。采用排队授权访问的方式限制同时访问应用的用户数，在面对突发大流量时，将访问压力控制在网站系统能够承受范围之内。同时为等待的用户提供排队等候页面，显示实时排队信息，提升用户使用体验。',
       img: '/img/opq_flow_zh_cn.png',
     },
     features: {
@@ -77,7 +77,7 @@ export default {
   'en-us': {
     brand: {
       brandName: 'OpenQueue',
-      briefIntroduction: 'Providing high concurrency access control solutions and cloud service for medium/small web applications.',
+      briefIntroduction: 'Providing high concurrency access control solutions and service for medium/small web applications.',
       buttons: [
         {
           text: 'Quick Trial',
